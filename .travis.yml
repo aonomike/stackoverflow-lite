@@ -14,9 +14,9 @@ install:
   - pip install codecov
 
 # run scripts
-script:
-  - coverage erase
-  - coverage run test_webapp.py && coverage html
+#script:
+#  - coverage erase
+#  - coverage run test_webapp.py && coverage html
 
 after_success:
   - codecov
